@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\employeesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\employeesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\employeesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\employeesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\employeesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\createorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\createorderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\customersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\productsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\reportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|c:\\users\\admin\\desktop\\\u0440\u043E\u0431\u043E\u0442\u0438\\\u0434\u0443\u0436\u043F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430 \u0431\u0434\\kursova\\kursova\\forms\\shipmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73D0FCB-51A7-4BC0-AD57-7730300F5E37}|Kursova\\Kursova.csproj|solutionrelative:kursova\\forms\\shipmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,39 +55,119 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeesForm.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs",
-              "RelativeDocumentMoniker": "Kursova\\Forms\\EmployeesForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs",
-              "RelativeToolTip": "Kursova\\Forms\\EmployeesForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Form1.cs",
+              "RelativeDocumentMoniker": "Kursova\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Form1.cs",
+              "RelativeToolTip": "Kursova\\Form1.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwFoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:53:46.117Z",
+              "WhenOpened": "2026-02-09T07:18:24.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShipmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ShipmentForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\ShipmentForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ShipmentForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\ShipmentForm.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwDcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:16:08.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ReportForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\ReportForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ReportForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\ReportForm.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwCMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:16:02.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ProductsForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\ProductsForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\ProductsForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\ProductsForm.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAIwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:15:54.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:15:50.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\CustomersForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\CustomersForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\CustomersForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\CustomersForm.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:15:39.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateOrderForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\CreateOrderForm.cs",
+              "RelativeDocumentMoniker": "Kursova\\Forms\\CreateOrderForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\CreateOrderForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\CreateOrderForm.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAIwFUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:15:33.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Kursova\\Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Kursova\\Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T07:15:27.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs",
+              "Title": "EmployeesForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs",
               "RelativeDocumentMoniker": "Kursova\\Forms\\EmployeesForm.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs [Design]",
-              "RelativeToolTip": "Kursova\\Forms\\EmployeesForm.cs [Design]",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\2 \u043A\u0443\u0440\u0441 1 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Forms\\EmployeesForm.cs",
+              "RelativeToolTip": "Kursova\\Forms\\EmployeesForm.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:53:44.452Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Form1.cs",
-              "RelativeDocumentMoniker": "Kursova\\Form1.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\\u0420\u043E\u0431\u043E\u0442\u0438\\\u0414\u0423\u0416\u041F\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430 \u0411\u0414\\Kursova\\Kursova\\Form1.cs [Design]",
-              "RelativeToolTip": "Kursova\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T19:52:31.546Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-21T19:53:46.117Z",
+              "EditorCaption": ""
             }
           ]
         }
