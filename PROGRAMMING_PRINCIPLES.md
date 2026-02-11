@@ -3,31 +3,32 @@
 ## 1. DRY (Don't Repeat Yourself) та SRP (Single Responsibility)
 Щоб уникнути дублювання коду підключення до бази даних у кожній формі, логіка з'єднання винесена в окремий статичний клас. Цей клас відповідає виключно за комунікацію з БД, що відповідає принципу єдиної відповідальності.
 
-- Реалізацію централізованого підключення можна знайти у класі [DatabaseContext.cs](./Kursova/Data/DatabaseContext.cs#L14-L28).
-- Використання цього методу іншими класами (замість написання SQL-підключення вручну) продемонстровано у [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L45).
+- Реалізацію централізованого підключення можна знайти у класі [DatabaseContext.cs](./Kursova/Data/DatabaseContext.cs#L12-L29).
+- Використання цього методу іншими класами (замість написання SQL-підключення вручну) продемонстровано у [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L30).
 
 ## 2. Atomicity (ACID) — Атомарність транзакцій
 Для забезпечення цілісності даних при створенні замовлення використовується механізм транзакцій. Це гарантує, що запис замовлення, запис товарів та списання зі складу відбудуться одночасно, або не відбудуться взагалі (у разі помилки).
 
-- Ініціалізація транзакції: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L168).
-- Виконання `Commit` (підтвердження) або `Rollback` (скасування) змін: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L198-L203).
+- Ініціалізація транзакції: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L152).
+- Виконання `Commit` (підтвердження) або `Rollback` (скасування) змін: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L186-L192).
 
 ## 3. Encapsulation (Інкапсуляція)
 Внутрішня логіка форм прихована від зовнішнього світу. Допоміжні методи, які не повинні викликатися ззовні, позначені модифікатором доступу `private`.
 
 - Приватний метод для завантаження даних у таблицю: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L27).
-- Приватний метод очищення полів форми: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L133).
+- Приватний метод очищення полів форми: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L139).
 
 ## 4. Defensive Programming (Захисне програмування)
 Код містить перевірки на коректність даних перед виконанням критичних операцій, щоб запобігти виключенням (exceptions) або логічним помилкам.
 
-- Перевірка наявності товару на складі перед додаванням (запобігає від'ємним залишкам): [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L106-L115).
-- Перевірка, чи кошик не порожній перед збереженням замовлення: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L159-L163).
+- Перевірка наявності товару на складі перед додаванням (запобігає від'ємним залишкам): [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L102-L110).
+- Перевірка, чи кошик не порожній перед збереженням замовлення: [CreateOrderForm.cs](./Kursova/Forms/CreateOrderForm.cs#L144-L148).
 - Перевірка заповненості обов'язкових полів (ПІБ) перед створенням співробітника: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L38-L42).
 
 ## 5. Resource Management
 Для коректного звільнення ресурсів (закриття з'єднань з БД) використовується конструкція `using`. Це гарантує, що метод `Dispose()` буде викликано навіть у випадку помилки.
 
-- Приклад використання `using` для `SqlConnection`: [DatabaseContext.cs](./Kursova/Data/DatabaseContext.cs#L33).
-- Приклад використання `using` для `SqlCommand`: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L71).
+- Приклад використання `using` для `SqlConnection`: [DatabaseContext.cs](./Kursova/Data/DatabaseContext.cs#L32).
+- Приклад використання `using` для `SqlCommand`: [EmployeesForm.cs](./Kursova/Forms/EmployeesForm.cs#L44).
+
 
