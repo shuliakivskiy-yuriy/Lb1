@@ -11,7 +11,7 @@ namespace Kursova.Data
 {
     public static class DatabaseContext
     {
-        private static string connectionString = @"Data Source=DESKTOP-AG22R8U;Initial Catalog=OrdersDB;Integrated Security=True;Encrypt=False";
+        private static string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
         public static SqlConnection GetConnection()
         {
