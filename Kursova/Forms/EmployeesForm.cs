@@ -24,9 +24,18 @@ namespace Kursova
         {
             LoadData();
         }
+        private string HashPassword(string password)
+        {
+            using (var sha256 = System.Security.Cryptography.SHA256.Create())
+            {
+                var bytes = System.Text.Encoding.UTF8.GetBytes(password);
+                var hash = sha256.ComputeHash(bytes);
+                return Convert.ToBase64String(hash);
+            }
+        }
         private void LoadData()
         {
-            string query = "SELECT EmployeeId, FullName, Position, Phone, Email, HireDate, Password FROM Employees";
+            string query = "SELECT EmployeeId, FullName, Position, Phone, Email, HireDate FROM Employees";
             dgvEmployees.DataSource = DatabaseContext.ExecuteQuery(query);
 
             if (dgvEmployees.Columns.Contains("EmployeeId"))
@@ -46,7 +55,7 @@ namespace Kursova
                 if (conn.State == ConnectionState.Closed) conn.Open();
 
                 string sql = @"INSERT INTO Employees (FullName, Position, Phone, Email, HireDate, Password) 
-                               VALUES (@Name, @Pos, @Phone, @Email, @Date, @Pass)";
+                       VALUES (@Name, @Pos, @Phone, @Email, @Date, @Pass)";
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@Name", txtFullName.Text);
@@ -54,11 +63,10 @@ namespace Kursova
                 cmd.Parameters.AddWithValue("@Phone", txtPhone.Text);
                 cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
                 cmd.Parameters.AddWithValue("@Date", DateTime.Now);
-                cmd.Parameters.AddWithValue("@Pass", txtPassword.Text);
+                cmd.Parameters.AddWithValue("@Pass", HashPassword(txtPassword.Text));
 
                 cmd.ExecuteNonQuery();
             }
-
             LoadData();
             ClearFields();
         }
@@ -70,22 +78,24 @@ namespace Kursova
             using (SqlConnection conn = DatabaseContext.GetConnection())
             {
                 if (conn.State == ConnectionState.Closed) conn.Open();
-
-                string sql = @"UPDATE Employees 
-                               SET FullName=@Name, Position=@Pos, Phone=@Phone, Email=@Email, Password=@Pass 
-                               WHERE EmployeeId=@Id";
+й
+                string sql = string.IsNullOrWhiteSpace(txtPassword.Text)
+                    ? @"UPDATE Employees SET FullName=@Name, Position=@Pos, Phone=@Phone, Email=@Email WHERE EmployeeId=@Id"
+                    : @"UPDATE Employees SET FullName=@Name, Position=@Pos, Phone=@Phone, Email=@Email, Password=@Pass WHERE EmployeeId=@Id";
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@Name", txtFullName.Text);
                 cmd.Parameters.AddWithValue("@Pos", txtPosition.Text);
                 cmd.Parameters.AddWithValue("@Phone", txtPhone.Text);
                 cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
-                cmd.Parameters.AddWithValue("@Pass", txtPassword.Text);
+                if (!string.IsNullOrWhiteSpace(txtPassword.Text))
+                {
+                    cmd.Parameters.AddWithValue("@Pass", HashPassword(txtPassword.Text));
+                }
                 cmd.Parameters.AddWithValue("@Id", selectedId);
 
                 cmd.ExecuteNonQuery();
             }
-
             LoadData();
             ClearFields();
         }
@@ -128,7 +138,8 @@ namespace Kursova
                 txtPosition.Text = row.Cells["Position"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
                 txtEmail.Text = row.Cells["Email"].Value.ToString();
-                txtPassword.Text = row.Cells["Password"].Value.ToString();
+
+                txtPassword.Clear();
             }
         }
 
