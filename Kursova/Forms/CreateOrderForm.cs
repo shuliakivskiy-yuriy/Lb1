@@ -1,5 +1,7 @@
 ﻿using Kursova.Data;
 using Kursova.Models;
+using Kursova.Repositories;
+using Kursova.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +17,8 @@ namespace Kursova.Forms
 {
     public partial class CreateOrderForm : Form
     {
+        private OrderService _orderService = new OrderService();
+        private OrderRepository _orderRepository = new OrderRepository();
         private DataTable orderItemsTable;
         private decimal totalAmount = 0;
         public CreateOrderForm()
@@ -124,12 +128,10 @@ namespace Kursova.Forms
         }
         private void UpdateTotalLabel()
         {
-            decimal discountPercent = CalculateDiscount(totalAmount);
-            decimal finalSum = totalAmount - (totalAmount * discountPercent / 100);
+            decimal discount = _orderService.CalculateDiscount(totalAmount);
+            decimal finalSum = _orderService.CalculateFinalSum(totalAmount);
 
-            lblTotal.Text = $"Сума: {totalAmount} грн\n" +
-                            $"Знижка: {discountPercent}% (-{totalAmount * discountPercent / 100} грн)\n" +
-                            $"ДО СПЛАТИ: {finalSum} грн";
+            lblTotal.Text = $"Сума: {totalAmount} грн\nЗнижка: {discount}%\nДО СПЛАТИ: {finalSum} грн";
         }
 
         private decimal CalculateDiscount(decimal currentTotal)
@@ -141,57 +143,21 @@ namespace Kursova.Forms
 
         private void btnSaveOrder_Click(object sender, EventArgs e)
         {
-            if (orderItemsTable.Rows.Count == 0)
+            if (orderItemsTable.Rows.Count == 0) { MessageBox.Show("Кошик порожній!"); return; }
+
+            try
             {
-                MessageBox.Show("Кошик порожній!");
-                return;
+                decimal discount = _orderService.CalculateDiscount(totalAmount);
+                int customerId = (int)cmbCustomers.SelectedValue;
+
+                _orderRepository.CreateOrder(customerId, UserSession.EmployeeId, totalAmount, discount, orderItemsTable);
+
+                MessageBox.Show("Замовлення успішно створено!");
+                this.Close();
             }
-
-            using (SqlConnection conn = DatabaseContext.GetConnection())
+            catch (Exception ex)
             {
-                SqlTransaction transaction = conn.BeginTransaction();
-                try
-                {
-                    decimal discountPercent = CalculateDiscount(totalAmount);
-                    decimal finalSum = totalAmount - (totalAmount * discountPercent / 100);
-
-                    string sqlOrder = "INSERT INTO Orders (CustomerId, EmployeeId, OrderDate, RequiredDate, Status, TotalAmount) VALUES (@C, @E, @D, @ReqD, 'Новий', @T); SELECT SCOPE_IDENTITY();";
-                    SqlCommand cmdOrder = new SqlCommand(sqlOrder, conn, transaction);
-                    cmdOrder.Parameters.AddWithValue("@C", cmbCustomers.SelectedValue);
-                    cmdOrder.Parameters.AddWithValue("@E", UserSession.EmployeeId);
-                    cmdOrder.Parameters.AddWithValue("@D", DateTime.Now);
-                    cmdOrder.Parameters.AddWithValue("@ReqD", DateTime.Now.AddDays(3));
-                    cmdOrder.Parameters.AddWithValue("@T", finalSum);
-
-                    int orderId = Convert.ToInt32(cmdOrder.ExecuteScalar());
-
-                    foreach (DataRow row in orderItemsTable.Rows)
-                    {
-                        string sqlItem = "INSERT INTO OrderItems (OrderId, ProductId, Quantity, UnitPrice, Discount) VALUES (@O, @P, @Q, @Price, @Disc)";
-                        SqlCommand cmdItem = new SqlCommand(sqlItem, conn, transaction);
-                        cmdItem.Parameters.AddWithValue("@O", orderId);
-                        cmdItem.Parameters.AddWithValue("@P", row["ProductId"]);
-                        cmdItem.Parameters.AddWithValue("@Q", row["Quantity"]);
-                        cmdItem.Parameters.AddWithValue("@Price", row["Price"]);
-                        cmdItem.Parameters.AddWithValue("@Disc", discountPercent);
-                        cmdItem.ExecuteNonQuery();
-
-                        string sqlStock = "UPDATE Products SET StockQuantity = StockQuantity - @Q WHERE ProductId = @P";
-                        SqlCommand cmdStock = new SqlCommand(sqlStock, conn, transaction);
-                        cmdStock.Parameters.AddWithValue("@Q", row["Quantity"]);
-                        cmdStock.Parameters.AddWithValue("@P", row["ProductId"]);
-                        cmdStock.ExecuteNonQuery();
-                    }
-
-                    transaction.Commit();
-                    MessageBox.Show($"Замовлення №{orderId} створено успішно!");
-                    this.Close();
-                }
-                catch (Exception ex)
-                {
-                    transaction.Rollback();
-                    MessageBox.Show("Помилка транзакції: " + ex.Message);
-                }
+                MessageBox.Show("Помилка при створенні замовлення: " + ex.Message);
             }
         }
 

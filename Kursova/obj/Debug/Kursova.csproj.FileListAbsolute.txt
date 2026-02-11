@@ -101,3 +101,19 @@ C:\Users\Admin\Desktop\Роботи\ДУЖП\Курсова БД\Kursova\Kursova
 C:\Users\Admin\Desktop\Роботи\ДУЖП\Курсова БД\Kursova\Kursova\obj\Debug\Kursova.CustomersForm.resources
 C:\Users\Admin\Desktop\Роботи\ДУЖП\Курсова БД\Kursova\Kursova\obj\Debug\Kursova.EmployeesForm.resources
 C:\Users\Admin\Desktop\Роботи\ДУЖП\Курсова БД\Kursova\Kursova\obj\Debug\Kursova.Forms.ProductsForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.exe.config
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.CustomersForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.EmployeesForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Forms.CreateOrderForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Form1.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Forms.LoginForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Forms.ProductsForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Forms.ReportForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Forms.ShipmentForm.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.Properties.Resources.resources
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.exe
+C:\Users\Admin\Desktop\Роботи\ДУЖП\2 курс 2 семестр\Конструювання програмного забезпечення\ЛР1\Lb1\Kursova\obj\Debug\Kursova.pdb
